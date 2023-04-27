@@ -1,0 +1,17 @@
+.info, .extract, .pic {
+    display: flex;
+    flex-direction: column;
+}
+.init {
+    display: flex;
+    flex-direction: row;
+    background-color: #F0E4ED;
+}
+img.page
+{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    margin: 25px;
+}
+p, h2, h3 {margin: 25px;}

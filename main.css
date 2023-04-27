@@ -1,0 +1,103 @@
+body {
+    font-family: 'trebuchet ms';
+}
+h1 {
+    font-size: 30px;
+    color: white;
+    padding: 25px;
+
+}
+.nav {
+    background-color: #2D3047;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: white;
+
+}
+.start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: 'trebuchet ms';
+    align-content: start;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 20px;
+    font-size: 16px;
+}
+a:hover {
+    background-color: #8783D1;
+    padding: 5px;
+}
+li.grand {
+    background-color: white;
+    font-size: 25px;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.object
+{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 20px;
+}
+.object:hover {
+    background-color: #8783D1;
+    opacity: .5;
+}
+img {
+    max-height: 350px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+img.main {
+    max-height: 150px;
+    margin-right: 0;
+
+}
+h3 {
+    color: black;
+    text-align: center;
+}
+h4 {
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+}
+section {
+    margin: 25px;
+}
+p {
+    font-family: roman, 'times new roman', times, serif
+}
+.img-group {
+    display: flex;
+    flex-direction: row;
+}
+.fn
+{
+    font-size: 14px;
+    background-color: #A1B3B3;
+}
